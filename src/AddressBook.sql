@@ -7,9 +7,13 @@ update contact set type="friends" where ContactId=2 ;
 update contact set type="family" where ContactId=3 ;
 update contact set type="Colleagues" where ContactId=4 ;
 update contact set type="Colleagues" where ContactId=5 ;
--- Sorted entry alphabetically using firstName
-SELECT * FROM contact ORDER BY firstName;
--- Sorted entry using ContactId
-select * from contact order by ContactId;
--- Sorted entry in descending order using ContactId
-select * from contact order by ContactId desc;
+-- Count number of contacts by CountId
+select count(ContactId) from contact;
+-- Count number of contacts of family type
+
+select count(type) from contact where type="family";
+-- Count number of contacts of friends type
+select count(type) from contact where type="friends";
+
+-- Count number of contact of different type and group by type
+SELECT type, COUNT(*) FROM contact GROUP BY type;
