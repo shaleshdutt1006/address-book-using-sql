@@ -11,3 +11,4 @@ insert into contact values(2,"sumit","sharma","bandra Mumbai East","Pune","Mahar
 insert into contact values(3,"amit", "dutt", "mahatam buddh nagar", "kaithal", "haryana", 54654, "845165489165","amit@gmail.com");
 insert into contact values(4,"ankita", "sharma", "andheri", "mumbai", "maharashtra", 56565, "94516558498","ankita@gmail.com");
 insert into contact values(5,"anita", "sharma", "model", "delhi", "delhi", 26556, "9468156647","anita@gmail.com");
+insert into contact values(5,"sunita", "sharma", "model", "mumbai", "mumbai", 26556, "9468156647","anita@gmail.com");
