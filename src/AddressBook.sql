@@ -6,3 +6,4 @@ insert into contact values(4,"ankita", "sharma", "andheri", "mumbai", "maharasht
 insert into contact values(5,"anita", "sharma", "model", "delhi", "delhi", 26556, "9468156647","anita@gmail.com","Colleague");
 insert into contact (ContactId,firstName,lastName,address,state,city,zip,phoneNumber,email,type)values(6,"sumit","sharma","bandra Mumbai East","Pune","Maharashtra",156007,9468156647,"sumit@gmail.com","family");
 insert into contact (ContactId,firstName,lastName,address,state,city,zip,phoneNumber,email,type)values(7,"annu","sharma","bandra Mumbai East","Pune","Maharashtra",156007,9468156647,"annu@gmail.com","friend");
+insert into contact (ContactId,firstName,lastName,address,state,city,zip,phoneNumber,email,type)values(8,"sunita","sharma","bandra Mumbai East","Pune","Maharashtra",156007,9468156647,"sunita@gmail.com","friend");
